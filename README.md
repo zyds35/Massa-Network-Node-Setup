@@ -61,9 +61,9 @@ control x daha sonra y basıp enter diyoruz
 > 
 > roll almak için
 
-> buy_rolls <address> <roll count> <fee>
+> buy_rolls address roll count fee
 
-> node_start_staking <your_address>
+> node_start_staking your_address
 
-> get_addresses <your_address>
+> get_addresses your_address
 
