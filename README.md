@@ -33,12 +33,17 @@
 control x daha sonra y basıp enter diyoruz
 
 > cd massa/massa-node/
+> 
 > PASSWORD YAZAN YERE ŞİFRE BELİRLEYİP YAZIYORUZ
+> 
 > ./massa-node -p <PASSWORD> |& tee logs.txt
 
 > cd massa/massa-client/
+> 
 > PASSWORD YAZAN YERE ŞİFRE BELİRLEYİP YAZIYORUZ
+> 
 > ./massa-client -p <PASSWORD>
+
 # Önemli Notlar
 > log kontrolü için
 > 
@@ -47,12 +52,18 @@ control x daha sonra y basıp enter diyoruz
 > client içindeyken
 > 
 > cd massa/massa-client/
- ./massa-client
+> 
+> ./massa-client
+> 
 > private key'i SecretKey1 yazan yere yazıyoruz ve cüzdan adresimizi görüyoruz
- wallet_add_secret_keys SecretKey1
+> 
+> wallet_add_secret_keys SecretKey1
+> 
 > roll almak için
 
 > buy_rolls <address> <roll count> <fee>
+
 > node_start_staking <your_address>
+
 > get_addresses <your_address>
 
