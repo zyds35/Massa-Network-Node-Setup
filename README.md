@@ -4,13 +4,21 @@
 8 cores, 16 GB RAM, 1TB disk
 
 # Kurulum
+
 > sudo apt update -y && sudo apt upgrade -y
+> 
 > ufw allow 31244 && ufw allow 31245
+> 
 > screen -S massa
+> 
 > wget https://github.com/massalabs/massa/releases/download/MAIN.2.0/massa_MAIN.2.0_release_linux.tar.gz
+> 
 > tar -zxvf massa_MAIN.2.0_release_linux.tar.gz
+> 
 > sudo apt install pkg-config curl git build-essential libssl-dev libclang-dev cmake
+> 
 > curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+> 
 > source $HOME/.cargo/env
 
 rustup toolchain install 1.74.1
