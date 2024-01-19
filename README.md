@@ -38,13 +38,13 @@ control x daha sonra y basıp enter diyoruz
 > 
 > PASSWORD YAZAN YERE ŞİFRE BELİRLEYİP YAZIYORUZ
 > 
-> ./massa-node -p -PASSWORD- |& tee logs.txt
+> ./massa-node -p PASSWORD |& tee logs.txt
 
 > cd massa/massa-client/
 > 
 > PASSWORD YAZAN YERE ŞİFRE BELİRLEYİP YAZIYORUZ
 > 
-> ./massa-client -p -PASSWORD-
+> ./massa-client -p PASSWORD
 
 # Önemli Notlar
 > log kontrolü için
