@@ -22,7 +22,9 @@
 > source $HOME/.cargo/env
 
 > rustup toolchain install 1.74.1
+> 
 > rustup default 1.74.1
+> 
 > rustc --version
 
 > git clone https://github.com/massalabs/massa.git
