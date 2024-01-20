@@ -5,9 +5,9 @@
 
 # Kurulum
 
-> sudo apt update -y && sudo apt upgrade -y
-> 
-> ufw allow 31244 && ufw allow 31245
++ sudo apt update -y && sudo apt upgrade -y
++  
++ ufw allow 31244 && ufw allow 31245
 > 
 > screen -S massa
 > 
