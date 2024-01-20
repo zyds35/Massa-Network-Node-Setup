@@ -5,8 +5,9 @@
 
 # Kurulum
 
-+ sudo apt update -y && sudo apt upgrade -y
-+ ufw allow 31244 && ufw allow 31245
+> sudo apt update -y && sudo apt upgrade -y
+> 
+> ufw allow 31244 && ufw allow 31245
 > 
 > screen -S massa
 > 
@@ -48,21 +49,21 @@ control x daha sonra y basıp enter diyoruz
 > ./massa-client -p PASSWORD
 
 # Önemli Notlar
-> log kontrolü için
++ log kontrolü için
 > 
 > screen -r massa
 > 
-> client içindeyken
++ client içindeyken
 > 
 > cd massa/massa-client/
 > 
 > ./massa-client
 > 
-> private key'i SecretKey1 yazan yere yazıyoruz ve cüzdan adresimizi görüyoruz
++ private key'i SecretKey1 yazan yere yazıyoruz ve cüzdan adresimizi görüyoruz
 > 
 > wallet_add_secret_keys SecretKey1
 > 
-> roll almak için
++ roll almak için
 
 > buy_rolls address roll count fee
 
