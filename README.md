@@ -29,7 +29,7 @@
 
 > git clone https://github.com/massalabs/massa.git
 
-> massa-node/config/config.toml
+> nano massa-node/config/config.toml
 ```yaml
  [protocol]
  routable_ip = "ip adresinizi yazacaksınız buraya"
