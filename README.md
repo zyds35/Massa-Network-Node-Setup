@@ -7,13 +7,18 @@
 
 > sudo apt update -y && sudo apt upgrade -y
 > 
-> ufw allow 31244 && ufw allow 31245
+> sudo apt install ufw -y
+> sudo ufw allow 22
+> sudo ufw allow ssh
+> sudo ufw allow 31244/tcp
+> sudo ufw allow 31245/tcp 
+> sudo ufw enable 
 > 
 > screen -S massa
 > 
-> wget https://github.com/massalabs/massa/releases/download/MAIN.2.1/massa_MAIN.2.1_release_linux.tar.gz
+> wget https://github.com/massalabs/massa/releases/download/MAIN.2.2/massa_MAIN.2.2_release_linux.tar.gz
 > 
-> tar -zxvf massa_MAIN.2.1_release_linux.tar.gz
+> tar xvf massa_MAIN.2.2_release_linux.tar.gz
 > 
 > sudo apt install pkg-config curl git build-essential libssl-dev libclang-dev cmake
 > 
@@ -21,15 +26,7 @@
 > 
 > source $HOME/.cargo/env
 
-> rustup toolchain install 1.74.1
-> 
-> rustup default 1.74.1
-> 
-> rustc --version
-
-> git clone https://github.com/massalabs/massa.git
-
-> nano massa-node/config/config.toml
+> nano massa/massa-node/config/config.toml
 ```yaml
  [protocol]
  routable_ip = "ip adresinizi yazacaksınız buraya"
